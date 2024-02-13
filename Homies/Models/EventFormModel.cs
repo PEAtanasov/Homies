@@ -5,6 +5,7 @@ namespace Homies.Models
 {
     public class EventFormModel
     {
+        public int Id { get; set; }
         [Required]
         [StringLength(DataConstants.EventNameMaxLength, MinimumLength = DataConstants.EventNameMinLength)]
         public string Name { get; set; } = string.Empty;
