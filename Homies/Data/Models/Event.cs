@@ -38,7 +38,7 @@ namespace Homies.Data.Models
         /// </summary>
         [Required]
         [Comment("Event organiser identifier")]
-        public int OrganiserId { get; set; }
+        public string OrganiserId { get; set; } = string.Empty;
 
         /// <summary>
         /// Event organiser
